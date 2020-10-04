@@ -11,5 +11,3 @@ RUN aws configure set s3.signature_version s3v4
 ADD entrypoint.sh /
 
 EXPOSE 80
-
-ENTRYPOINT [ "/bin/bash","/entrypoint.sh" ]
